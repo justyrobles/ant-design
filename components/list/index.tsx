@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import * as React from 'react';
 import { ConfigContext } from '../config-provider';
 import DefaultRenderEmpty from '../config-provider/defaultRenderEmpty';
+import type { RowProps } from '../grid';
 import { Row } from '../grid';
 import useBreakpoint from '../grid/hooks/useBreakpoint';
 import type { PaginationConfig } from '../pagination';
@@ -24,7 +25,7 @@ export type ColumnCount = number;
 export type ColumnType = 'gutter' | 'column' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
 
 export interface ListGridType {
-  gutter?: number;
+  gutter?: RowProps['gutter'];
   column?: ColumnCount;
   xs?: ColumnCount;
   sm?: ColumnCount;

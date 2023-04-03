@@ -63,16 +63,16 @@ coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*tBzwQ7raKX8AAA
 
 ### List grid props
 
-| 参数   | 说明                 | 类型   | 默认值 | 版本 |
-| ------ | -------------------- | ------ | ------ | ---- |
-| column | 列数                 | number | -      |      |
-| gutter | 栅格间隔             | number | 0      |      |
-| xs     | `<576px` 展示的列数  | number | -      |      |
-| sm     | `≥576px` 展示的列数  | number | -      |      |
-| md     | `≥768px` 展示的列数  | number | -      |      |
-| lg     | `≥992px` 展示的列数  | number | -      |      |
-| xl     | `≥1200px` 展示的列数 | number | -      |      |
-| xxl    | `≥1600px` 展示的列数 | number | -      |      |
+| 参数 | 说明 | 类型 | 默认值 | 版本 |
+| --- | --- | --- | --- | --- |
+| column | 列数 | number | - |  |
+| gutter | 栅格间隔，可以写成像素值或支持响应式的对象写法来设置水平间隔 { xs: 8, sm: 16, md: 24}。或者使用数组形式同时设置 `[水平间距, 垂直间距]` | number \| object \| array | 0 |  |
+| xs | `<576px` 展示的列数 | number | - |  |
+| sm | `≥576px` 展示的列数 | number | - |  |
+| md | `≥768px` 展示的列数 | number | - |  |
+| lg | `≥992px` 展示的列数 | number | - |  |
+| xl | `≥1200px` 展示的列数 | number | - |  |
+| xxl | `≥1600px` 展示的列数 | number | - |  |
 
 ### List.Item
 
